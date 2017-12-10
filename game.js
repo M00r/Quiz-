@@ -11,7 +11,7 @@ if (jQuery) {
         checkIfCorrect(answerString);
     };
     var checkIfCorrect = function (theString) {
-        if (parseInt(theString, 16) === 811124566973) {
+        if (parseInt(theString, 16) === 213699786) {
             $("body").addClass("correct");
             $("h1").text("You won!");
             $("canvas").show();
